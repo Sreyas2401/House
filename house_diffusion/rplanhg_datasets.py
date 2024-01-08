@@ -114,6 +114,7 @@ class RPlanhgDataset(Dataset):
                 self.syn_self_masks = data['self_masks']
                 self.syn_gen_masks = data['gen_masks']
         else:
+            print(os.getcwd())
             with open(f'{base_dir}/list.txt') as f:
                 lines = f.readlines()
             cnt=0

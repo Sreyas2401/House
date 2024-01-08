@@ -66,7 +66,7 @@ def main():
 
 def create_argparser():
     defaults = dict(
-        dataset = '',
+        dataset = 'rplan',
         schedule_sampler= "uniform", #"loss-second-moment", "uniform",
         lr=1e-4,
         weight_decay=0.0,
